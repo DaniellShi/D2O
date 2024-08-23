@@ -14,4 +14,4 @@ This script is used to plot waveforms of events and other meaningful histograms 
 11. poisson. Ignore it.
 12. checkTime. I looped through all entries and check if there is triggerBit=10 or 18.
 13. fastPoisson. Faster version of poissonFit. Uses parallel.
-14. coloredLayout. A function I used to plot colored layout of pmts according to the distribution of pmts triggered when triggerBit==2. I set the colors of each pmt manually because I don't know how to generalize this function to all triggerBits. the parameter 'mode' means nothing in this function. I planned to use either mode='pmt' or mode='sipm' to graph colored layout for either pmts or sipms. 
+14. colorLayout. A function I used to plot colored layout of pmts according to the distribution of pmts triggered when triggerBit==2. I set the colors of each pmt manually because I don't know how to generalize this function to all triggerBits. the parameter 'mode' means nothing in this function. I planned to use either mode='pmt' or mode='sipm' to graph colored layout for either pmts or sipms. 
